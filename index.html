@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Ley de Coulomb</title>
+</head>
+<body style="font-family: fuente;">
+  <div class="center col l12 m12 border-black amber topbar bottombar">
+    <h1><img src="logo.png" width="64px">AntaresLab: Ley de Coulomb</h1>
+    <h6 class="opacity"  style="font-family: fuenteb;">Por Juan David Guevara Arévalo</h6>
+  </div>
+  <div class="padding col l3 hide-medium hide-small"></div>
+  <div class="container col l6 m12 margin-bottom">
+    <div class="col l12 m12 s12 padding-32">
+      <p class="col l6 m6">Ingrese la distancia deseada (cm):</p>
+      <input type="number" class="input col l6 m6" id="d" value="50">
+    </div>
+    <div class="col l12 m12 s12 padding-32">
+      <p class="col l6 m6">Ingrese la carga Fija deseada (µC):</p>
+      <input type="number" class="input col l6 m6" id="f" value="50">
+    </div>
+    <div class="col l12 m12 s12 padding-32">
+      <p class="col l6 m6">Ingrese la carga movil (µC):</p>
+      <input type="number" class="input col l6 m6" id="m" value="50">
+    </div>
+    <button class="button col l12 m12 amber border-dark-gray bottombar" id="resultado">Ver resultado</button>
+    <div class="col l12 m12 s12 padding-32">
+      <p class="col l6 m6">Fuerza (N):</p>
+      <p class="col l6 m6 border-bottom center" id="fuerza">&nbsp;</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
